@@ -26,8 +26,10 @@ To make a request, the client application will need to connect to the microservi
 * The client sends a category request (e.g., "Physical Health").
 * The socket.recv_string() function pauses the client’s execution until a response is received from the server.
 
+### Code To REQUEST Data From Microservice 
 ![Programmatically REQUEST Data](images/request-data-from-microservice.png)
 
+### Code To Send Data Back To Client
 ![Programmatically REQUEST Data](images/send-data-to-client.png)
 
 ## Recieve Data From Microservice
@@ -38,6 +40,8 @@ To make a request, the client application will need to connect to the microservi
 * The microservice, upon receiving the request, processes it and prepares a relevant response (e.g., a motivational suggestion related to the provided category).
 * The microservice sends the response back to the client using socket.send_string().
 
+### Code To RECIEVE Data From Client 
 ![Programmatically RECIEVE Data](images/recieve-request-from-client.png)
 
+### Code To RECIEVE Data From Microservice 
 ![Programmatically REQUEST Data](images/recieve-data-from-microservice.png)
