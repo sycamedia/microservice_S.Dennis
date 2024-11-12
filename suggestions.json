@@ -1,0 +1,266 @@
+{
+    "Physical Health": {
+        "suggestions": {
+        "exercise": "Aim for at least 30 minutes of moderate exercise per day, like walking or biking.",
+        "hydration": "Drink at least 8 glasses of water throughout the day.",
+        "sleep": "Aim to get 7-9 hours of sleep each night for optimal rest and recovery."
+        },
+        "example_tasks": {
+        "exercise_task": "Do a 30-minute yoga session in the morning.",
+        "hydration_task": "Fill a large water bottle and finish it by noon, then refill for the afternoon.",
+        "sleep_task": "Set a regular bedtime routine that starts an hour before bed with relaxation exercises."
+        }
+    },
+    "Mental Health": {
+        "suggestions": {
+        "meditation": "Take 5-10 minutes each day to practice mindfulness or meditation.",
+        "journaling": "Spend a few minutes each night writing down thoughts or reflecting on your day.",
+        "social_connection": "Make time each week to connect with a friend or family member."
+        },
+        "example_tasks": {
+        "meditation_task": "Use a guided meditation app for 10 minutes before bed.",
+        "journaling_task": "Write down three things you’re grateful for at the end of the day.",
+        "social_connection_task": "Schedule a phone call with a friend or family member."
+        }
+    },
+    "Nutrition": {
+        "suggestions": {
+        "balanced_diet": "Incorporate a mix of fruits, vegetables, proteins, and whole grains into your meals.",
+        "mindful_eating": "Eat without distractions and listen to your body’s hunger cues.",
+        "meal_prep": "Plan and prepare meals in advance to ensure balanced nutrition."
+        },
+        "example_tasks": {
+        "balanced_diet_task": "Prepare a colorful salad with leafy greens, protein, and healthy fats for lunch.",
+        "mindful_eating_task": "Take at least 20 minutes to eat your lunch without screens or other distractions.",
+        "meal_prep_task": "Prepare a week’s worth of healthy snacks, like cut vegetables or fruit, on Sunday."
+        }
+    },
+    "Emotional Wellness": {
+        "suggestions": {
+        "self_reflection": "Take time to reflect on your feelings and experiences regularly.",
+        "hobbies": "Engage in a hobby you enjoy to relax and recharge.",
+        "self_compassion": "Practice self-compassion and avoid self-criticism."
+        },
+        "example_tasks": {
+        "self_reflection_task": "Spend 10 minutes each day reflecting on your emotions in a journal.",
+        "hobbies_task": "Set aside an hour this weekend to work on a hobby you enjoy, like painting or reading.",
+        "self_compassion_task": "Write down three positive things about yourself or your accomplishments."
+        }
+    },
+    "Technology Skills": {
+        "suggestions": {
+        "coding": "Learn the basics of coding or programming to understand modern technology.",
+        "automation": "Automate repetitive tasks to save time and increase productivity.",
+        "cybersecurity": "Understand the basics of cybersecurity to protect your personal data."
+        },
+        "example_tasks": {
+        "coding_task": "Spend 30 minutes learning Python or another beginner-friendly programming language.",
+        "automation_task": "Set up a simple task automation using IFTTT or Zapier.",
+        "cybersecurity_task": "Enable two-factor authentication on all your important online accounts."
+        }
+    },
+    "Pet Care": {
+        "suggestions": {
+        "regular_vet_visits": "Ensure your pet receives regular check-ups at the vet.",
+        "daily_exercise": "Take your pet for daily walks or playtime.",
+        "grooming": "Regularly groom your pet to maintain their health and appearance."
+        },
+        "example_tasks": {
+        "regular_vet_visits_task": "Schedule your pet's next annual check-up and vaccination appointment.",
+        "daily_exercise_task": "Take your dog for a 30-minute walk each day.",
+        "grooming_task": "Brush your pet’s fur weekly to prevent matting and keep them comfortable."
+        }
+    },
+    "Career Development": {
+        "suggestions": {
+        "goal_setting": "Set clear short and long-term career goals.",
+        "networking": "Attend professional networking events and expand your contacts.",
+        "continuous_learning": "Invest in learning new skills or technologies relevant to your career."
+        },
+        "example_tasks": {
+        "goal_setting_task": "Write down your career goals for the next year and review quarterly.",
+        "networking_task": "Reach out to a colleague or professional contact each week.",
+        "continuous_learning_task": "Enroll in an online course to enhance your skills in your field."
+        }
+    },
+    "Home Organization": {
+        "suggestions": {
+        "decluttering": "Clear out clutter from one area of your home each week.",
+        "cleaning_schedule": "Establish a weekly cleaning routine to maintain a tidy home.",
+        "storage_organization": "Organize your storage spaces to maximize efficiency."
+        },
+        "example_tasks": {
+        "decluttering_task": "Sort through your wardrobe and donate items you no longer wear.",
+        "cleaning_schedule_task": "Create a cleaning checklist for the week and stick to it.",
+        "storage_organization_task": "Label your storage bins and organize them by category."
+        }
+    },
+    "Personal Finance": {
+        "suggestions": {
+        "budgeting": "Create and stick to a monthly budget to manage expenses.",
+        "saving": "Set aside a portion of your income for savings each month.",
+        "investing": "Learn about investment opportunities and start with small investments."
+        },
+        "example_tasks": {
+        "budgeting_task": "Track your expenses for the month and compare them to your budget.",
+        "saving_task": "Set up an automatic transfer to your savings account each payday.",
+        "investing_task": "Research beginner-friendly investment platforms and make your first deposit."
+        }
+    },
+    "Time Management": {
+        "suggestions": {
+        "prioritization": "Use a to-do list to prioritize your daily tasks.",
+        "focus_blocks": "Implement focused work blocks and avoid distractions.",
+        "delegation": "Delegate tasks to others when appropriate to maximize efficiency."
+        },
+        "example_tasks": {
+        "prioritization_task": "Write a to-do list at the start of each day and prioritize tasks by importance.",
+        "focus_blocks_task": "Use a timer for 25-minute work intervals followed by a 5-minute break.",
+        "delegation_task": "Delegate one task this week that can be handled by a colleague or team member."
+        }
+    },
+    "Writing": {
+        "suggestions": {
+        "daily_writing": "Write a few paragraphs each day to improve your skills.",
+        "writing_prompts": "Use writing prompts to spark creativity and challenge yourself.",
+        "sharing_writing": "Share your work with others for feedback and improvement."
+        },
+        "example_tasks": {
+        "daily_writing_task": "Write at least 500 words every day, even if it's just a journal entry.",
+        "writing_prompts_task": "Use a random writing prompt generator to write a short story.",
+        "sharing_writing_task": "Share a poem or short story with a friend or in a writing group."
+        }
+    },
+    "Travel": {
+        "suggestions": {
+        "trip_research": "Plan your trips well in advance and research destinations.",
+        "budget_travel": "Look for budget-friendly travel options and accommodations.",
+        "travel_photography": "Learn how to capture the best moments during your travels."
+        },
+        "example_tasks": {
+        "trip_research_task": "Spend an hour researching the top attractions in your next vacation destination.",
+        "budget_travel_task": "Find two affordable flights and compare accommodation options for your trip.",
+        "travel_photography_task": "Learn the basics of photography and practice taking photos during your walks."
+        }
+    },
+    "Gardening": {
+        "suggestions": {
+        "plant_care": "Ensure your plants receive the right amount of sunlight, water, and nutrients.",
+        "seasonal_gardening": "Adapt your gardening routine according to the changing seasons.",
+        "composting": "Start composting your kitchen waste to create nutrient-rich soil for your garden."
+        },
+        "example_tasks": {
+        "plant_care_task": "Water your plants twice a week and check for signs of pests or disease.",
+        "seasonal_gardening_task": "Prepare your garden beds for spring planting by clearing debris and adding compost.",
+        "composting_task": "Set up a compost bin in your yard and start collecting food scraps for composting."
+        }
+    },
+    "Photography": {
+        "suggestions": {
+        "composition": "Learn the rules of composition to improve the quality of your photos.",
+        "lighting": "Understand how to work with natural and artificial light to enhance your shots.",
+        "photo_editing": "Familiarize yourself with photo editing software to refine your pictures."
+        },
+        "example_tasks": {
+        "composition_task": "Take five photos focusing on using the rule of thirds in each shot.",
+        "lighting_task": "Experiment with taking photos at different times of the day to see how lighting affects your shots.",
+        "photo_editing_task": "Edit a photo you’ve taken to adjust the exposure and color balance."
+        }
+    },
+    "Cooking": {
+    "suggestions": {
+        "meal_planning": "Plan your meals for the week to save time and avoid waste.",
+        "new_recipes": "Try cooking new recipes to expand your culinary repertoire.",
+        "kitchen_tools": "Learn how to properly use kitchen tools like knives, blenders, and mixers."
+    },
+    "example_tasks": {
+        "meal_planning_task": "Create a meal plan for the week and prepare a grocery list.",
+        "new_recipes_task": "Cook a new recipe you’ve never tried before, like a homemade pasta dish.",
+        "kitchen_tools_task": "Practice using a chef’s knife by chopping vegetables for a recipe."
+    }
+    },
+    "Mental Stimulation": {
+    "suggestions": {
+        "puzzles": "Engage in puzzles like crosswords or sudoku to keep your brain sharp.",
+        "reading": "Read books or articles on a variety of subjects to broaden your knowledge.",
+        "learning_a_language": "Start learning a new language to stimulate your cognitive abilities."
+    },
+    "example_tasks": {
+        "puzzles_task": "Complete a daily crossword puzzle to keep your mind engaged.",
+        "reading_task": "Read 20 pages of a non-fiction book each day.",
+        "learning_a_language_task": "Learn five new words in a foreign language every week."
+    }
+    },
+    "DIY Projects": {
+    "suggestions": {
+        "home_improvement": "Take on a small home improvement project, like painting or fixing a leaky faucet.",
+        "crafting": "Explore crafting by making homemade candles, soap, or decor items.",
+        "upcycling": "Repurpose old furniture or materials into something new and useful."
+    },
+    "example_tasks": {
+        "home_improvement_task": "Paint a room or touch up the trim in your home.",
+        "crafting_task": "Make a homemade candle using natural ingredients.",
+        "upcycling_task": "Turn an old wooden pallet into a coffee table."
+    }
+    },
+    "Networking": {
+    "suggestions": {
+        "online_networking": "Use social media platforms to connect with like-minded professionals.",
+        "attend_events": "Participate in industry-related events and workshops to meet new people.",
+        "follow_up": "After meeting someone, follow up with a message to keep the connection alive."
+    },
+    "example_tasks": {
+        "online_networking_task": "Join a LinkedIn group relevant to your profession and engage in discussions.",
+        "attend_events_task": "Attend a local networking event or webinar in your field.",
+        "follow_up_task": "Send a follow-up email to someone you met at a recent event."
+    }
+    },
+    "Art and Creativity": {
+    "suggestions": {
+        "drawing": "Try sketching daily to improve your artistic skills.",
+        "painting": "Experiment with different painting styles and techniques.",
+        "photography": "Capture unique and creative photographs of everyday objects."
+    },
+    "example_tasks": {
+        "drawing_task": "Sketch a simple object, like a coffee cup, every day for a week.",
+        "painting_task": "Try painting with watercolors on a small canvas.",
+        "photography_task": "Take 10 photographs of ordinary objects, but focus on lighting and angles."
+    }
+    },
+    "Mindfulness": {
+    "suggestions": {
+        "breathing_exercises": "Practice deep breathing exercises to reduce stress and increase focus.",
+        "body_scan": "Do a body scan to check in with how you are feeling physically and mentally.",
+        "present_moment_focus": "Practice focusing your attention on the present moment throughout the day."
+    },
+    "example_tasks": {
+        "breathing_exercises_task": "Take 5 minutes to practice deep breathing in a quiet space.",
+        "body_scan_task": "Perform a 10-minute body scan to relax and check in with your body.",
+        "present_moment_focus_task": "Spend 10 minutes focused on the task at hand, without distractions."
+    }
+    },
+    "Music": {
+    "suggestions": {
+        "practice_instrument": "Set aside time each day to practice your instrument.",
+        "listen_to_music": "Listen to different genres to broaden your musical taste.",
+        "singing": "Practice singing to improve vocal range and pitch."
+    },
+    "example_tasks": {
+        "practice_instrument_task": "Practice scales or a song on your instrument for 20 minutes.",
+        "listen_to_music_task": "Listen to a new album or genre you've never explored before.",
+        "singing_task": "Warm up your vocal cords and sing along with a favorite song."
+    }
+    },
+    "Self-Care": {
+    "suggestions": {
+        "relaxation": "Take time to relax and unwind from your daily stresses.",
+        "skincare": "Follow a skincare routine to nourish and care for your skin.",
+        "pampering": "Treat yourself to occasional pampering, such as a spa day or a long bath."
+    },
+    "example_tasks": {
+        "relaxation_task": "Take a 15-minute break to relax and read a book or listen to music.",
+        "skincare_task": "Follow your skincare routine with cleanser, toner, and moisturizer.",
+        "pampering_task": "Set aside time for a warm bath with essential oils or bath salts."
+    }
+    }
+    }
