@@ -47,22 +47,24 @@ def main():
     Program that recieves a to do list, and returns a suggestion and example
     task that cooresponds with the category.
     """
-    
+
     context = zmq.Context()
-    
+
     # REP socket for server-side replies
-    socket = context.socket(zmq.REP)  
-    
+    socket = context.socket(zmq.REP)
+
     # Bind to port 5555 to listen for incoming connections
-    socket.bind("tcp://*:5555")  
+    #  '*' may need to be updated to localhost or 127.0.0.1
+    #  Port number may be altered to avoid collisions
+    socket.bind("tcp://localhost:5555")  
     print("Suggestion server is awaiting messages...")
 
     # Load suggestions from the JSON file
     suggestions = load_suggestions()
-    
+
     while True:
-        
-        # Wait for a category request from the client
+
+        # Wait for a category request from the client, and assign request to 'category'
         category = socket.recv_string()
         
         # Prepare the suggestion or error message based on the category request
@@ -71,7 +73,7 @@ def main():
             response = f'Suggestion: {suggestion}\nExample Task: {task}'
         else:
             response = "Invalid category."
-        
+
         # Send the response back to the client
         socket.send_string(response)
         print(f'Message ({response}) has been sent successfully.')
