@@ -50,6 +50,30 @@ To make a request, the client application will need to connect to the microservi
 ## ULM Sequence Diagram
 ![ULM Sequence Diagram](images/ulm-sequence-diagram.png)
 
+## All Category Types Held In Data Store
+* Physical Health
+* Mental Health
+* Nutrition
+* Emotional Wellness
+* Technology Skills
+* Pet Care
+* Career Development
+* Home Organization
+* Personal Finance
+* Time Management
+* Writing
+* Travel
+* Gardening
+* Photography
+* Cooking
+* Mental Stimulation
+* DIY Projects
+* Networking
+* Art and Creativity
+* Mindfulness
+* Music
+* Self-Care
+
 ## Mitigation Plan
 
 ### For which teammate did you implement “Microservice A”?
