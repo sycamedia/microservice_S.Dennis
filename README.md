@@ -39,6 +39,7 @@ To make a request, the client application will need to connect to the microservi
 * After sending the request, the client waits for the microservice to respond.
 * The microservice, upon receiving the request, processes it and prepares a relevant response (e.g., a motivational suggestion related to the provided category).
 * The microservice sends the response back to the client using socket.send_string().
+* The client then recieves the data from the microservice using socket.recv_string()
 
 ### Code To RECIEVE Data From Client 
 ![Programmatically RECIEVE Data](images/recieve-request-from-client.png)
