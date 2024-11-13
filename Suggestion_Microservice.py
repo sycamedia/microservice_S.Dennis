@@ -75,7 +75,7 @@ def main():
     # Bind to port 5555 to listen for incoming connections
     #  '*' may need to be updated to localhost or 127.0.0.1
     #  Port number may be altered to avoid collisions
-    socket.bind("tcp://localhost:5555")  
+    socket.bind("tcp://localhost:5555")
     print("Suggestion server is awaiting messages...")
 
     # Load suggestions from the JSON file
