@@ -1,3 +1,16 @@
+"""
+Cal Ikai
+ikaic@oregonstate.edu
+11/13/2024
+
+Client For Suggestions Microservice
+
+This program implements the client-side logic to communicate with a server using ZeroMQ.
+It uses the Request-Reply pattern to send requests and receive responses from a
+remote microservice. The client sends data requests and processes responses to provide
+real-time functionality for the end-user.
+"""
+
 import zmq  
 
 def main():

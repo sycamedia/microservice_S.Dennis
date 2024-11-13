@@ -1,3 +1,16 @@
+"""
+Carl Ikai
+ikaic@oregonstate.edu
+11/13/2024
+
+Microservice Module for ZeroMQ Communication
+
+This program implements the server-side logic for a microservice that responds to requests
+from a client using ZeroMQ. It employs the Request-Reply pattern, where it listens for
+incoming client requests, processes them, and sends back the appropriate responses.
+"""
+
+
 import zmq
 import os
 import json
@@ -47,6 +60,9 @@ def main():
     Program that recieves a to do list, and returns a suggestion and example
     task that cooresponds with the category.
     """
+
+    # ZeroMQ format based on Flores, L. (2024, June 11). Introduction to ZeroMQ. 
+    # Oregon State University. Licensed under Creative Commons Attribution-NonCommercial 4.0 License.
 
     context = zmq.Context()
 
