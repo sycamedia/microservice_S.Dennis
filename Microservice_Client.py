@@ -20,7 +20,7 @@ def main():
     context = zmq.Context()
 
     # Create a REQ (request) socket for sending requests to the server
-    socket = context.socket(zmq.REQ)  # REQ socket for client-side requests
+    socket = context.socket(zmq.REQ)
 
     # Connect to server running on localhost at port 5555
     socket.connect("tcp://localhost:5555")
