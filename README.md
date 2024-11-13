@@ -53,7 +53,9 @@ To make a request, the client application will need to connect to the microservi
 
 ### For which teammate did you implement “Microservice A”?
 I implemented “Microservice A” specifically for Sycamore Dennis's to-do list application.
-What is the current status of the microservice? Hopefully, it’s done!
+
+### What is the current status of the microservice?
+The microservice is complete and fully functional.
 
 ### If the microservice isn’t done, which parts aren’t done and when will they be done?
 The microservice is fully completed and has been tested to ensure it meets the project requirements. All necessary components, including the communication protocols, functionality, and error-handling mechanisms, are in place. The microservice is ready to be integrated and called by Sycamore's code.
