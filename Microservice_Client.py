@@ -22,9 +22,7 @@ def main():
     # Create a REQ (request) socket for sending requests to the server
     socket = context.socket(zmq.REQ)  # REQ socket for client-side requests
 
-    # Connect to the server running on localhost at port 5555
-    #  '*' may need to be updated to localhost or 127.0.0.1
-    #  Port number may be altered to avoid collisions
+    # Connect to server running on localhost at port 5555
     socket.connect("tcp://localhost:5555")
 
     # Prompt the user for a category input
