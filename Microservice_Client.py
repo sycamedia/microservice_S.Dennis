@@ -8,7 +8,7 @@ Client For Suggestions Microservice
 This program implements the client-side logic to communicate with a server using ZeroMQ.
 It uses the Request-Reply pattern to send requests and receive responses from a
 remote microservice. The client sends data requests and processes responses to provide
-real-time functionality for the end-user.
+real-time functionality for the enSd-user.
 """
 
 import zmq
@@ -22,7 +22,7 @@ def main():
     # Create a REQ (request) socket for sending requests to the server
     socket = context.socket(zmq.REQ)
 
-    # Connect to server running on localhost at port 5555
+    # Bind to local host at port 5555 to to communicate with microservice
     socket.connect("tcp://localhost:5555")
 
     # Prompt the user for a category input
