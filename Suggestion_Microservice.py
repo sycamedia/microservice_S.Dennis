@@ -87,13 +87,18 @@ def main():
         # Prepare the suggestion or error message based on the category request
         if category in suggestions:
             suggestion, task = get_suggestion(category, suggestions)
-            response = f'Suggestion: {suggestion}\nExample Task: {task}'
+            response_data = {
+                "category": category,
+                "suggestion": suggestion,
+                "task": task
+                }
+            response = json.dumps(response_data)
         else:
             response = "Invalid category."
 
         # Send the response back to the client
         socket.send_string(response)
-        print(f'Message ({response}) has been sent successfully.')
+        print(f'Response has been sent successfully: {response}')
 
 
 if __name__ == "__main__":
